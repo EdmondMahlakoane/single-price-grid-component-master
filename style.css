@@ -1,0 +1,151 @@
+/* Reset and fonts */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    color: hsl(218, 22%, 67%);
+  }
+  
+  /* Card container */
+  .card {
+    max-width: 700px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  /* Top section */
+  .top {
+    padding: 40px;
+    text-align: left;
+  }
+  
+  .top h1 {
+    color: hsl(179, 62%, 43%);
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .top h2 {
+    color: hsl(71, 73%, 54%);
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .top p {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+  
+  /* Bottom split */
+  .bottom {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bottom > div {
+    padding: 30px;
+    color: white;
+  }
+  
+  /* Subscription block */
+  .subscription {
+    background-color: hsl(179, 62%, 43%);
+  }
+  
+  .subscription h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .subscription .price {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .subscription .price span {
+    font-size: 16px;
+    color: hsl(179, 62%, 70%);
+    font-weight: normal;
+  }
+  
+  .subscription p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .signup-btn {
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .signup-btn:hover {
+    background-color: hsl(71, 73%, 60%);
+  }
+  
+  /* Why Us block */
+  .why-us {
+    background-color: hsl(179, 62%, 50%);
+  }
+  
+  .why-us h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .why-us ul {
+    list-style: none;
+    font-size: 14px;
+    line-height: 1.8;
+  }
+  
+  /* Footer attribution */
+  footer {
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    border-top: 1px solid #eee;
+  }
+  
+  .attribution {
+    font-size: 11px;
+  }
+  
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+  }
+  
+  /* Responsive layout */
+  @media (min-width: 600px) {
+    .bottom {
+      flex-direction: row;
+    }
+  
+    .bottom > div {
+      flex: 1;
+    }
+  }
+  
